@@ -1,0 +1,225 @@
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+/* Styling for the welcome message */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: blue;
+}
+
+/* Navbar styling */
+.navbar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar a {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+}
+
+/* Styling for buttons under the navbar */
+.navbar .button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navbar .button-container a {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 12px 24px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.navbar .button-container a:hover {
+    background-color: #007bb5;
+}
+
+/* Center content if necessary */
+.center-content {
+    text-align: center;
+    margin-top: 40px;
+}
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    text-align: center;
+    background-color: #e74a4a;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Photo upload section */
+.upload-section {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.photo-upload-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.photo-upload-form label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.photo-upload-form input[type="text"],
+.photo-upload-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6c57e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #6c57e2;
+}
+
+/* Photos gallery */
+.photos-gallery {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo-card {
+    background-color: white;
+    width: 30%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.photo-container {
+    position: relative;
+    width: 100%;
+}
+
+.photo-image {
+    width: 100%;
+    height: auto;
+}
+
+.photo-description {
+    padding: 15px;
+    text-align: center;
+}
+
+.username-link h3 {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.date {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.description {
+    font-size: 1.1em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.photo-actions {
+    margin-top: 15px;
+}
+
+.action-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.action-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
